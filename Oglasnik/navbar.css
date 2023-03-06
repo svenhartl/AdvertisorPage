@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');  /** Poppins Font **/
+body {
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    float: left;
+    width: 80%;
+    background: #fff;
+    margin:auto;
+    
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #111;
+    color: white;
+    font-size: 24px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  
+  form.example button:hover {
+    background-color: #343838 ;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .searchbox{
+  
+      width:90%;
+      margin:auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+  }
+  
